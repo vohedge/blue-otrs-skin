@@ -23,7 +23,7 @@ OTRS_ROOT="/opt/otrs"
 # /bin/ln -s $SKIN_PATH/skins/Customer/blueskin $OTRS_ROOT/var/httpd/htdocs/skins/Customer || true
 # /bin/chown -h $OTRS_USER:$OTRS_GROUP $OTRS_ROOT/var/httpd/htdocs/skins/Customer/blueskin
 
-/bin/cp -r $SKIN_PATH/theme/BlueSkin $OTRS_ROOT/Kernel/Output/HTML
+# /bin/cp -r $SKIN_PATH/theme/BlueSkin $OTRS_ROOT/Kernel/Output/HTML
 
 echo ""
 echo "==========================================================="
