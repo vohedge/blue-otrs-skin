@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1023px) {
+
+/*
+ * Search Box in Sidebar
+ */
+.SearchBox input[type='text'] {
+  border-color: #ccc;
+  border-radius: 4px 0 0 4px;
+  width: 208px;
+}
+.SearchBox button {
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+  text-shadow: none;
+}
+.SearchBox button:hover {
+  border: 1px solid #ccc;
+}
+
+/*
+ * Drag and Drop
+ */
+ul.Tablelike li:hover {
+  background-color: #9ed2ff;
+}
+
+}

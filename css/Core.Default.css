@@ -1,0 +1,353 @@
+@media only screen and (min-width: 1023px) {
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  font-size: 12px;
+}
+
+h2 {
+  color: #244158;
+}
+
+.MainBox {
+  padding: 10px;
+}
+
+/* Button */
+.CallForAction,
+.cke_dialog_footer_buttons a.cke_dialog_ui_button {
+  padding: 0px;
+  background: #008cdb;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+.CallForAction span,
+.cke_dialog_footer_buttons td a.cke_dialog_ui_button span {
+  min-height: 12px;
+  padding: 6px 10px;
+  line-height: 14px;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 11px;
+  border: none;
+  display: block;
+  text-shadow: none;
+  cursor: pointer;
+  position: relative;
+}
+.CallForAction:active,
+.CallForAction:hover {
+  background: #008cdb;
+  border: none;
+}
+
+.CallForAction span i.fa-plus-square {
+  color: #fff;
+}
+
+/* Fullsize */
+.CallForAction.Fullsize {
+  width: 246px;
+}
+.CallForAction.Fullsize span {
+  padding: 3px 20px 5px 20px;
+  padding: 6px 10px;
+}
+.CallForAction.Fullsize.Center span i {
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+
+/* form */
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+  padding: 5px;
+  font-size: 12px;
+  color: #333;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+fieldset.TableLike > .Field,
+fieldset.TableLike > .Row > .Field {
+  line-height: 1.9em;
+  margin-left: 30%;
+  margin-right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 0px;
+  min-height: 20px;
+}
+fieldset.TableLike > label,
+fieldset.TableLike > .Row > label {
+  text-align: right;
+  color: #929292;
+  min-height: 20px;
+  padding-top: 7px;
+  padding-bottom: 1px;
+  text-shadow: 0 1px 0 #FAFAFA;
+}
+.Marker {
+  color: #ff505e;
+}
+#LoginBox .Marker {
+  display: none;
+}
+
+/* Search Box */
+#Source_Search {
+  width: 234px !important;
+}
+
+/*  */
+div.InputField_Selection div.Text {
+  background-color: #9ed2ff;
+  padding: 4px 6px;
+  border-radius: 2px;
+}
+div.InputField_Selection div.Remove {
+  background-color: #9ed2ff;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  margin-left: -4px;
+}
+div.InputField_Selection div.Remove a {
+  padding: 4px 6px;
+  border-radius: 0 2px 2px 0;
+  display: block;
+}
+
+.jstree-InputField-NoTree .jstree-node {
+  min-height: 22px;
+  line-height: 22px;
+  margin-left: 2px;
+  min-width: 22px;
+}
+.jstree-InputField-NoTree .jstree-wholerow {
+  height: 22px;
+}
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked {
+  background-color: #9ed2ff;
+}
+
+/* --------------------------------------------------------------------------------
+ *
+* Link and Hover color
+-------------------------------------------------------------------------------- */
+a {
+  color: #006bba;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #78bff3;
+}
+
+.MessageBox,
+.DataTable tbody tr:hover td,
+.TableSmall tbody tr:hover td,
+.DataTable tbody tr:active td.Clickable,
+.TableSmall tbody tr:active td.Clickable,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow:hover,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-hovered,
+.jstree-InputField .jstree-focused > .jstree-wholerow,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked:hover,
+.jstree-InputField .jstree-wholerow-ul .jstree-wholerow-clicked.jstree-wholerow-hovered,
+.jstree-InputField .jstree-focused > .jstree-wholerow-clicked {
+  background: #78bff3;
+}
+
+div.InputField_ToolbarContainer ul li a:hover {
+  border-bottom: 2px solid #008cdb;
+}
+
+/* Widgets */
+.WidgetSimple > .Header,
+.WidgetSimple.Collapsed.AnimationRunning > .Header {
+  padding: 5px 5px 5px 5px;
+  position: relative;
+  background-color: #e1e7ea;
+  border-radius: 4px 4px 0 0;
+}
+.WidgetSimple > .Content {
+  padding: 12px 12px 14px;
+  overflow: auto;
+  min-height: 0%;
+}
+.WidgetSimple {
+  margin-bottom: 15px;
+  background-color: #f1f5f7;
+  border-radius: 4px;
+}
+.WidgetSimple .WidgetSimple {
+  background-color: #f1f5f7;
+  border: 1px solid #ddd;
+  margin: 15px 10px;
+}
+
+.WidgetSimple.QueueOverview > .Content {
+  padding-bottom: 8px;
+}
+.QueueOverviewList li {
+  padding: 2px 10px !important;
+}
+
+.PreferencesScreen .Size1of3 > .WidgetSimple {
+  margin: 0px 10px !important;
+}
+
+/* Message Box */
+.MessageBox {
+  border-radius: 4px;
+  margin: 10px 10px 0 10px;
+}
+.MessageBox.Error p,
+ .MessageBox.Error a {
+  color: #fff;
+}
+
+/* Table */
+.DataTable thead th.DashboardHeader,
+.TableSmall thead th.OverviewHeader {
+  padding: 3px 20px 3px 3px;
+}
+.DataTable tbody td {
+  padding: 3px 10px;
+}
+.DataTable thead th { 
+  background-color: #e1e7ea;
+}
+
+/* Queue */
+/*
+#EmptyMessageSmall {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+*/
+
+.ControlRow {
+  min-height: 24px;
+  background-color: #e1e7ea;
+  border-radius: 4px 4px 0 0;
+}
+.ControlRow li.Active,
+.ControlRow li.Active:hover,
+.ControlRow li.Active:active {
+  background-color: #006bba;
+  color: #fff;
+}
+
+.ControlRow li > a {
+  color: #006bba;
+  padding: 10px 14px;
+  font-size: 12px;
+}
+.ControlRow li:hover,
+.ControlRow li > a:hover {
+  background: transparent;
+  color: #78bff3;
+}
+
+ul.ContextFunctions li.ContextHelp,
+ul.ContextFunctions li.ContextSettings,
+ul.ContextFunctions li.ContextHelp a,
+ul.ContextFunctions li.ContextSettings a {
+  background: transparent !important;
+}
+ul.ContextFunctions li.ContextHelp a,
+ul.ContextFunctions li.ContextSettings a {
+  color: #777;
+  width: 22px;
+  height: 30px;
+}
+
+ul.ContextFunctions li.ContextHelp a:hover,
+ul.ContextFunctions li.ContextSettings a:hover {
+  color: #000;
+}
+ul.ContextFunctions li.ContextSettings .fa {
+  font-size: 14px;
+  padding: 9px 0px 0px 3px;
+}
+
+.ControlRow .Icons a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  display: block;
+  float: left;
+}
+.ControlRow .Icons a i {
+  color: #244158;
+  margin-top: 8px;
+}
+
+.ActionRow {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.OverviewActions {
+  min-height: 32px;
+}
+.Actions li a,
+.Actions li span {
+  color: #006bba;
+  font-size: 12px;
+  padding: 6px 3px 0 0;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+.Actions li span:hover,
+.Actions li a:hover {
+  color: #78bff3;
+  border: none;
+}
+.Actions li.Inactive a,
+.Actions li.Inactive a:hover {
+  color: #ccc;
+  text-shadow: none;
+}
+.Actions li:after {
+  font-size: 12px;
+}
+
+.LightRow.Bottom {
+  background-color: #f1f5f7;
+}
+
+.TableSmall thead th {
+  background-color: #e1e7ea;
+}
+.TableSmall thead th a {
+  font-size: 12px;
+}
+
+
+
+.OverviewMedium li ul.InlineActions {
+  background-color: #333;
+}
+
+.TableSmall tbody tr.Active td, .DataTable tbody tr.Active td {
+  font-weight: bold;
+}
+
+.ArticleMailHeader {
+  font-size: 12px;
+  padding: 0;
+  border: none;
+}
+
+}

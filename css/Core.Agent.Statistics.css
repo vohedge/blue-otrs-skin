@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1023px) {
+
+/*
+ * Buttons in Preview Area
+ */
+.PreviewContainer .CallForAction {
+  background-color: #f1f5f7;
+  border: 1px solid #ccc;
+}
+.PreviewContainer .CallForAction span {
+  color: #006bba !important;
+}
+
+}
+

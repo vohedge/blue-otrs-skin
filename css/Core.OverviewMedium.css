@@ -1,0 +1,5 @@
+.OverviewMedium li:hover div.Content,
+.OverviewMedium li:hover {
+  border-left-color: #006bba !important;
+}
+

@@ -1,0 +1,178 @@
+@media only screen and (min-width: 1023px) {
+
+/**
+ * @subsection  Header
+ */
+#Header {
+  background-color: #333;
+  padding: 0;
+  height: 28px;
+}
+
+/**
+ * @subsection  Logo
+ */
+#Logo {
+  background: none !important;
+  top: 28px !important;
+  left: 0;
+  height: 50px !important;
+  position: absolute;
+  width: 70px !important;
+}
+#Logo:after {
+  content: "OTRS";
+  font-weight: bold;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #006bba;
+}
+.LoginScreen #Header #Logo {
+  display: none;
+}
+
+/**
+ * @subsection  Toolbar
+ */
+#ToolBar {
+  position: static;
+}
+
+#ToolBar li {
+  position: relative;
+  height: 24px;
+  margin: 0 8px;
+  float: right;
+  width: auto;
+}
+
+#ToolBar a {
+  color: #fff;
+  width: auto;
+}
+
+#ToolBar a i {
+  font-size: 14px;
+  text-shadow: none;
+  width: auto;
+}
+
+#ToolBar li.Locked {
+  padding-top: 4px;
+  float: left;
+  width: 24px;
+}
+#ToolBar a span.Counter {
+  display: inline-block;
+  padding: 4px 6px;
+  font-size: 9px;
+  -webkit-transform:scale(0.8);
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #F25C5C;
+  border-radius: 10px;
+  width: auto;
+  position: absolute;
+  top: -2px;
+  right: -8px;
+  bottom: auto;
+  left: auto;
+}
+
+#ToolBar .fa.fa-power-off:before,
+#ToolBar .fa.fa-cog:before {
+  display: none;
+}
+#ToolBar .fa.fa-power-off:after {
+  content: "ログアウト";
+  font-size: 12px;
+}
+#ToolBar .fa.fa-cog:after {
+  content: "個人設定";
+  font-size: 12px;
+}
+
+/**
+ * @subsection      Navigation Level-0
+ */
+
+#NavigationContainer {
+  height: 50px !important;
+  background-color: #242424;
+  position: static;
+  width: 100%;
+}
+
+#NavigationContainer #Navigation {
+  margin-left: 70px;
+}
+
+/**
+ * @subsection      Main hover effect
+ */
+#Navigation > li {
+  background: none;
+  border: none;
+}
+
+#Navigation > li > a {
+  font-size: 13px;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 22px 0 22px;
+}
+
+#Navigation > li:hover {
+    cursor: pointer;
+    border-color: #FF9922;
+}
+
+#Navigation > li:hover > a,
+#Navigation > li:active > a {
+  background-color: #454646;
+}
+
+#Navigation > .Selected {
+  background: none;
+  border: none;
+}
+
+#Navigation > .Selected > a {
+    color: #FFF;
+}
+
+/**
+ * @subsection      Search icon
+ */
+
+#Navigation a i {
+  top: 10px;
+  left: 24px;
+}
+
+/**
+ * @subsection      Navigation Second level
+ */
+
+#Navigation > .Active > ul {
+  top: 50px;
+}
+
+#Navigation > .Active > ul > li:hover > a {
+  color: #fff;
+  background-color: #006bba;
+}
+
+#Navigation > .Active > ul > li > a {
+  font-size: 12px;
+  padding: 10px;
+  border: none;
+  background-color: #454646;
+}
+} /* end @media */
