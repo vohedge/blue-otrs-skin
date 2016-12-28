@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="1.0" init="Framework">
+    <ConfigItem Name="Loader::Agent::Skin###100-blue" Required="0" Valid="1">
+        <Description Translatable="1">Blue skin</Description>
+        <Group>Framework</Group>
+        <SubGroup>Frontend::Agent</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="InternalName">blue</Item>
+                <Item Key="VisibleName">blue</Item>
+                <Item Key="Description">Blue skin for otrs</Item>
+                <Item Key="HomePage">https://github.com/vohedge/blue-otrs-skin</Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
