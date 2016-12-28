@@ -13,8 +13,8 @@ OTRS_ROOT="/opt/otrs"
 #Fix permissions and make the proper symlinks
 /bin/chown -R $OTRS_USER:$OTRS_GROUP $SKIN_PATH
 /bin/chown -R $OTRS_USER:$OTRS_GROUP $OTRS_ROOT/Kernel/Output/HTML/BlueSkin
-/usr/bin/find $SKIN_PATH/skins/ -type f -print0 | xargs -0 /bin/chmod 0660
-/usr/bin/find $SKIN_PATH/skins/ -type d -print0 | xargs -0 /bin/chmod 2770
+/usr/bin/find $SKIN_PATH/skins/ -type f -print0 | xargs -0 /bin/chmod 0664
+/usr/bin/find $SKIN_PATH/skins/ -type d -print0 | xargs -0 /bin/chmod 2775
  
 /bin/ln -s $SKIN_PATH/BlueSkin.xml $OTRS_ROOT/Kernel/Config/Files/ || true
 /bin/chown -h $OTRS_USER:$OTRS_GROUP $OTRS_ROOT/Kernel/Config/Files/BlueSkin.xml
