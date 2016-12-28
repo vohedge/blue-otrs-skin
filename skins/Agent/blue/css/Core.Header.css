@@ -64,6 +64,11 @@
   float: left;
   width: 24px;
 }
+#ToolBar li.Responsible {
+  padding-top: 4px;
+  float: left;
+  width: 24px;
+}
 #ToolBar a span.Counter {
   display: inline-block;
   padding: 4px 6px;
