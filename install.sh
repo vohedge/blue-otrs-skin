@@ -18,8 +18,8 @@ OTRS_ROOT="/opt/otrs"
  
 /bin/ln -s $SKIN_PATH/BlueSkin.xml $OTRS_ROOT/Kernel/Config/Files/ || true
 /bin/chown -h $OTRS_USER:$OTRS_GROUP $OTRS_ROOT/Kernel/Config/Files/BlueSkin.xml
-/bin/ln -s $SKIN_PATH/skins/Agent/blueskin $OTRS_ROOT/var/httpd/htdocs/skins/Agent || true
-/bin/chown -h $OTRS_USER:$OTRS_GROUP $OTRS_ROOT/var/httpd/htdocs/skins/Agent/blueskin
+/bin/ln -s $SKIN_PATH/skins/Agent/blue $OTRS_ROOT/var/httpd/htdocs/skins/Agent || true
+/bin/chown -h $OTRS_USER:$OTRS_GROUP $OTRS_ROOT/var/httpd/htdocs/skins/Agent/blue
 # /bin/ln -s $SKIN_PATH/skins/Customer/blueskin $OTRS_ROOT/var/httpd/htdocs/skins/Customer || true
 # /bin/chown -h $OTRS_USER:$OTRS_GROUP $OTRS_ROOT/var/httpd/htdocs/skins/Customer/blueskin
 
